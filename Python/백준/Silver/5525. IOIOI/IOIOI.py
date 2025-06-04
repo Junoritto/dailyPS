@@ -1,10 +1,9 @@
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 M = int(input())
-S = input()
-
-target = 'I'
-for i in range(N):
-    target += 'OI'
+S = input().strip()
 
 cursor, cnt, res = 0, 0, 0
 
